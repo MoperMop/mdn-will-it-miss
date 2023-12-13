@@ -3,8 +3,8 @@
   "scripts": {
     "dev": "bun x parcel src/index.html",
     "test": "bun tests/*.js",
-    "build": "bun run test && bun x parcel build src/index.html",
-    "setup": "bun i react-async-hook date-fns format-number"
+    "build": "bun run test && bun x parcel build src/index.html"
+    // "setup": "bun i react-async-hook date-fns format-number"
   },
   "devDependencies": {
     "axios": "^1.6.2"
